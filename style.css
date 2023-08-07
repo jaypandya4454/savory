@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bi {
+    position: relative;
+}
+
+.dish p{
+    font-size: 18px;
+    color: gray;
+    font-family: 'REM', sans-serif;
+}
+
+.content p {
+    font-size: 48px;
+    color: white;
+    font-family: 'REM', sans-serif;
+}
+
+.content h2 {
+    font-size: 78px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content button {
+    width: 250px; 
+    height: 70px; 
+    border-radius: 20px; 
+    font-size: 32px;
+}
+.dish p{
+    font-size: 18px;
+    color: gray;
+    font-family: 'REM', sans-serif;
+}
+.dish h2 {
+    font-size: 48px;
+    color: black;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+.content button:hover {
+    
+    background-color: yellow;
+    color: black;
+}
+
+.parallax-bg {
+    background-image: url('img/white-home-parallax1.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 500px; /* Adjust the height as needed */
+    padding-top: 100px; /* Add some space at the top of the content */
+    text-align: center;
+  }
+
+  .parallax-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .card {
+   padding-bottom: 25px;
+  }
+
+  .nu {
+    padding-top: 172px;
+  }
+
+  .nu h6 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .nu h3 {
+    font-size: 48px;
+    color: black;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .nu p {
+    font-size: 18px;
+    color: gray;
+    font-family: 'REM', sans-serif;
+  }
+
+  .gallery h2 {
+    font-size: 48px;
+    color: black;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .gallery p {
+    font-size: 18px;
+    color: gray;
+    font-family: 'REM', sans-serif;
+  }
+
+  .gi img:hover {
+    transform: scale(1.1);
+    transition: 0.9s;
+  }
+
+.form input{
+    margin-top: 25px;
+    width: 350px;
+    height: 50px;
+    margin-right: 25px;
+    border: 1px solid brown;
+}
